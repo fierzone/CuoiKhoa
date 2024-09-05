@@ -1,167 +1,190 @@
 * {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Poppins", sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     font-style: normal;
 }
+
 div.topbar {
-    background-color:black;
-    padding-left:170px;
-    position: fixed; 
+    background-color: black;
+    padding-left: 170px;
+    position: fixed;
     top: 0;
-    width: 100%; 
-    height:50px;
+    width: 100%;
+    height: 50px;
     display: flex;
     flex-direction: column;
 }
+
 div.topbar p {
-    color:#FAFAFA;
+    color: #FAFAFA;
     font-size: 14px;
-    text-align:center;
+    text-align: center;
     padding-top: 16px;
-    
 }
+
 div.topbar a {
-    color:#FAFAFA;
+    color: #FAFAFA;
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-    margin-left: 10px ;
+    margin-left: 10px;
 }
+
 div.topbar a:hover {
     text-decoration: underline;
 }
-div.topbar select{
-    background-color:black ;
-    color:#FAFAFA;
-    border:none;
-    outline:none;
+
+div.topbar select {
+    background-color: black;
+    color: #FAFAFA;
+    border: none;
+    outline: none;
     margin-left: 200px;
 }
+
 div.header {
     padding-top: 95px;
-    margin-left:150px;
-    box-sizing: border-box;
+    margin-left: 150px;
     display: flex;
     justify-content: space-evenly;
 }
+
 div.navigation {
     display: flex;
     gap: 50px;
-    margin-left:190px;
+    margin-left: 190px;
     width: 428px;
     height: 17px;
-    color:black;
-    
+    color: black;
 }
+
 div.navigation a {
     text-decoration: none;
 }
+
 div.navigation a:hover {
     text-decoration: underline;
 }
+
 div.search input {
     border: none;
     outline: none;
-    background-color:#F5F5F5;
+    background-color: #F5F5F5;
     font-size: 15px;
     padding: 0.3125em 0.625em;
 }
+
 div.search {
     display: flex;
     padding: 10px;
     padding-right: 30px;
-    padding-left: 30px;;
-    background-color:#F5F5F5;
+    padding-left: 30px;
+    background-color: #F5F5F5;
     border-radius: 7px;
-    gap:25px;
+    gap: 25px;
     margin-left: 300px;
     margin-top: -20px;
 }
+
 hr {
-    margin-top:15px;
+    margin-top: 15px;
 }
+
 div.home {
-    display:flex;
-    gap:15px;
+    display: flex;
+    gap: 15px;
     margin-top: 70px;
     padding-left: 150px;
 }
+
 div.home a {
     text-decoration: none;
-    opacity:50%;
-    color:black;
+    opacity: 50%;
+    color: black;
 }
+
 div.home a:hover {
-    opacity:1;
+    opacity: 1;
 }
-div.story{
+
+div.story {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     gap: 20px;
-    margin-left:140px;
+    margin-left: 140px;
 }
-div.text{
+
+div.text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 50px;
 }
+
 .button {
     padding-right: 8.75em;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
 }
+
 div.main button {
-    margin:70px; 
-    border:none;
+    margin: 70px;
+    border: none;
     border-radius: 10px;
-    font-size:20px;
+    font-size: 20px;
     align-items: center;
     background-color: transparent;
-    margin-top:20px;
-    width:250px;
+    width: 250px;
     padding: 15px;
     line-height: 40px;
     margin-top: 200px;
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
 div.main button:hover {
     background: #DB4444;
-    border:none;
+    border: none;
 }
-div.expert{
+
+div.expert {
     margin-left: 60px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 3.125em;
 }
-div.GroupAvatar{
+
+div.GroupAvatar {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
-div.name{
+
+div.name {
     display: flex;
     flex-direction: column;
     gap: 1em;
     margin-top: 20px;
 }
-div.user{
+
+div.user {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
+
 div.glide {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
-div.Quality{
+
+div.Quality {
     display: flex;
     padding-right: 8.75em;
     gap: 5.5em;
@@ -169,7 +192,8 @@ div.Quality{
     margin-top: 130px;
     line-height: 30px;
 }
-div.quality1{
+
+div.quality1, div.quality2, div.quality3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,35 +201,22 @@ div.quality1{
     gap: 1.5em;
     text-align: center;
 }
-div.quality2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5em;
-    text-align: center;
-}
-div.quality3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5em;
-    text-align: center;
-}
-div.Footer{
-    background-color: #000000;
-    color:#FFFFFF;
+
+div.Footer {
+    background-color: black;
+    color: white;
     display: flex;
     width: auto;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 285px;
 }
-div.Footer hr{
+
+div.Footer hr {
     padding: 0;
 }
-div.FooterTop{
+
+div.FooterTop {
     padding: 0 8.5em;
     padding-top: 5.625em;
     padding-bottom: 4.375em;
@@ -213,126 +224,140 @@ div.FooterTop{
     align-items: baseline;
     justify-content: space-evenly;
 }
-div.Exclusive{
+
+div.Exclusive {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap:1em;
+    gap: 1em;
 }
-div.GroupText1{
+
+div.GroupText1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap:1em;
+    gap: 1em;
 }
-div.text3{
+
+div.text3 {
     font-size: 1em;
 }
 
-div.Send{
+div.Send {
     display: flex;
     align-items: center;
-    border: 0.0625em solid #F5F5F5;
+    border: 1px solid #F5F5F5;
     padding: 0.3875em 0.625em;
 }
-div.Send input{
+
+div.Send input {
     outline: none;
     border: none;
-    background-color: #000000;
-    color: #FAFAFA;
+    background-color: black;
+    color: white;
 }
-div.Support{
+
+div.Support {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     justify-content: space-evenly;
-    gap:1.5em;
+    gap: 1.5em;
 }
-div.GroupText2{
+
+div.GroupText2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap:1em;
+    gap: 1em;
     font-size: 1em;
 }
-div.Account{
+
+div.Account {
     display: flex;
     flex-direction: column;
-    gap:1.5em;
+    gap: 1.5em;
 }
-div.BtnAccount{
+
+div.BtnAccount {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap:1em;
+    gap: 1em;
 }
-div.BtnAccount a{
-    color: #FAFAFA;
-    font-size: 1em;
-    text-decoration: none;
-}
-div.QuickLink{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap:1.5em;
-}
-div.BtnQuickLinks{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap:1em;
-}
-div.BtnQuickLinks a{
-    color: #FAFAFA;
+
+div.BtnAccount a {
+    color: white;
     font-size: 1em;
     text-decoration: none;
 }
-div.DownloadApp{
+
+div.QuickLink {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap:1.5em;
+    gap: 1.5em;
 }
-div.GroupDown{
+
+div.BtnQuickLinks {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    gap:1.5em;
+    gap: 1em;
 }
-div.GroupText3{
+
+div.BtnQuickLinks a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+div.DownloadApp {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+div.GroupDown {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+div.GroupText3 {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
-div.textApp{
+
+div.textApp {
     font-size: 0.75em;
     opacity: 0.5;
 }
-div.GroupImage{
+
+div.GroupImage {
     display: flex;
     align-items: center;
     gap: 0.5em;
 }
-div.ImageApp{
+
+div.ImageApp {
     display: flex;
     flex-direction: column;
     gap: 0.25em;
 }
-div.GroupIcon{
+
+div.GroupIcon {
     display: flex;
     align-items: center;
     gap: 1.5em;
 }
-div.FooterBottom{
+
+div.FooterBottom {
     display: flex;
     justify-content: center;
     gap: 1em;
 }
-div.copy{
+
+div.copy {
     display: flex;
     align-items: center;
     font-size: 1em;
-    gap:0.375em ;
+    gap: 0.375em;
     opacity: 0.3;
 }
