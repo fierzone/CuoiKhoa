@@ -1,0 +1,345 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+}
+div.topbar {
+    background-color:black;
+    padding-left:170px;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    height:50px;
+    display: flex;
+    flex-direction: column;
+}
+div.topbar p {
+    color:#FAFAFA;
+    font-size: 14px;
+    text-align:center;
+    padding-top: 16px;
+    
+}
+div.topbar a {
+    color:#FAFAFA;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px ;
+}
+div.topbar a:hover {
+    text-decoration: underline;
+}
+div.topbar select{
+    background-color:black ;
+    color:#FAFAFA;
+    border:none;
+    outline:none;
+    margin-left: 200px;
+}
+div.header {
+    padding-top: 95px;
+    margin-left:150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.navigation {
+    display: flex;
+    gap: 50px;
+    margin-left:190px;
+    width: 428px;
+    height: 17px;
+    color:black;
+    
+}
+div.navigation a {
+    text-decoration: none;
+}
+div.navigation a:hover {
+    text-decoration: underline;
+}
+div.search input {
+    border: none;
+    outline: none;
+    background-color:#F5F5F5;
+    font-size: 15px;
+    padding: 0.3125em 0.625em;
+}
+div.search {
+    display: flex;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;;
+    background-color:#F5F5F5;
+    border-radius: 7px;
+    gap:25px;
+    margin-left: 300px;
+    margin-top: -20px;
+}
+hr {
+    margin-top:15px;
+}
+div.home {
+    display:flex;
+    gap:15px;
+    margin-top: 70px;
+    padding-left: 150px;
+}
+div.home a {
+    text-decoration: none;
+    opacity:50%;
+    color:black;
+}
+div.home a:hover {
+    opacity:1;
+}
+div.information{
+    display: flex;
+    gap:5px ;
+    justify-content: space-evenly;
+    margin-top:50px
+}
+div.contact{
+    padding: 40px 41px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+}
+div.call{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding-left:20px ;
+}
+div.call h3 {
+    display:flex;
+    gap:15px;
+    align-items: center;
+}
+div.write{
+    display: flex;
+    flex-direction: column;
+    gap:25px ;
+    padding-left:20px ;
+}
+div.write h3 {
+    margin-top:20px;
+    display:flex;
+    gap:15px;
+    align-items: center;
+}
+div.write p{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size:0.875em ;
+}
+form {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+div.send{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 35px ;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+}
+div.Detail{
+    display: flex;
+    flex-direction: row;
+    gap:70px ;
+    font-size: 1em;
+}
+span {
+    color: #DB4444;
+}
+input{
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+div.name {
+    display: flex;
+    gap: 0.5em;
+}
+div.email{
+    display: flex;
+    gap: 0.5em;
+}
+
+div.phone{
+    display: flex;
+    gap: 0.5em; 
+}
+textarea{
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    resize: none;
+}
+button{
+    background-color: #F95C5C;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 1em 3em ;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.button{
+    display: flex;
+    justify-content: flex-end;
+}
+div.Footer{
+    background-color: #000000;
+    color:#FFFFFF;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 285px;
+}
+div.Footer hr{
+    padding: 0;
+}
+div.FooterTop{
+    padding: 0 8.5em;
+    padding-top: 5.625em;
+    padding-bottom: 4.375em;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+div.Exclusive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:1em;
+}
+div.GroupText1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1em;
+}
+div.text3{
+    font-size: 1em;
+}
+
+div.Send{
+    display: flex;
+    align-items: center;
+    border: 0.0625em solid #F5F5F5;
+    padding: 0.3875em 0.625em;
+}
+div.Send input{
+    outline: none;
+    border: none;
+    background-color: #000000;
+    color: #FAFAFA;
+}
+div.Support{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    gap:1.5em;
+}
+div.GroupText2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1em;
+    font-size: 1em;
+}
+div.Account{
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+}
+div.BtnAccount{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1em;
+}
+div.BtnAccount a{
+    color: #FAFAFA;
+    font-size: 1em;
+    text-decoration: none;
+}
+div.QuickLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1.5em;
+}
+div.BtnQuickLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1em;
+}
+div.BtnQuickLinks a{
+    color: #FAFAFA;
+    font-size: 1em;
+    text-decoration: none;
+}
+div.DownloadApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1.5em;
+}
+div.GroupDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:1.5em;
+}
+div.GroupText3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+div.textApp{
+    font-size: 0.75em;
+    opacity: 0.5;
+}
+div.GroupImage{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+div.ImageApp{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+}
+div.GroupIcon{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+div.FooterBottom{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+div.copy{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    gap:0.375em ;
+    opacity: 0.3;
+}
